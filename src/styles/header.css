@@ -1,0 +1,26 @@
+
+.header__contenedor {
+    font-family: var(--fuente-code);
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+.header__nombre {
+    color: var(--verdeP);
+    font-family: var(--fuente-code);
+}
+
+
+
+.header__nav {
+    font-family: var(--fuente-secundaria);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+
+}
+
+
+
