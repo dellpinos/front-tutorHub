@@ -10,6 +10,8 @@
     --amarilloP-claro: #fffec4;
     --rojoP: #ff6961;
     --rojoP-claro: #ffbeae;
+    --azulP: #6ecff6;
+    --azulP-claro: #b4e7ff;
 
     /* Colores Oscuros*/
     --grisDM-claro: #2d2e30;
@@ -21,6 +23,7 @@
     --negro: #000000;
     --gris: #efefef;
     --gris-claro: #f2f2f2;
+    --gris-medio: #808080;
 
     /* Font Weight */
     --regular: 400;

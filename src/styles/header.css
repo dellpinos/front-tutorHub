@@ -3,15 +3,26 @@
     font-family: var(--fuente-code);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 3rem;
+
+    
+    max-height: 0;
+    overflow: hidden;
+    padding: 0;
 }
 
-.header__nombre {
+.header__contenedor-logo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header__logo {
     color: var(--verdeP);
     font-family: var(--fuente-code);
+    font-size: 50px;
 }
-
-
 
 .header__nav {
     font-family: var(--fuente-secundaria);
