@@ -2,11 +2,34 @@ import './../styles/Header.css';
 import BotonSlide from './BotonSlide';
 import CampoBusqueda from './CampoBusqueda';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+
+
 
 const Header = () => {
 
+    const [visible, setVisible] = useState(false);
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+
+        return ()=> {
+            window.addEventListener('scroll', handleScroll);
+        }
+
+    }, []);
+
+    const handleScroll = () => {
+        if(window.scrollY > 600) {
+            console.log("hola")
+            setVisible(true);
+        } else {
+            setVisible(false);
+        }
+    }
+
     return (
-        <header className="header__contenedor">
+        <header className={`header__contenedor ${visible ? 'header__contenedor-mostrar' : 'header__contenedor-ocultar'}`}>
             <div className='header__contenedor-logo'>
                 <Link to='/'>
                     <h1 className="header__logo">TutorHub</h1>

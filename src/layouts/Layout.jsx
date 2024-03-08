@@ -5,7 +5,7 @@ import HeroHome from "../components/HeroHome";
 const Layout = () => {
     return (
         <>
-        <main>
+        <main className="relative">
             <Header />
             <HeroHome />
             <Outlet />

@@ -1,6 +1,7 @@
 import './../styles/HeroHome.css';
 import { Link } from 'react-router-dom';
 import BotonSlide from './BotonSlide';
+import CampoBusquedaXL from './CampoBusquedaXL';
 
 const HeroHome = () => {
     return (
@@ -15,12 +16,12 @@ const HeroHome = () => {
                     <BotonSlide
                         ruta='#'
                         colortexto="var(--blanco)"
-                        bgcolor="var(--rojoP)"
+                        bgcolor="var(--verdeP)"
                     >Info</BotonSlide>
                     <BotonSlide
                         ruta='/login'
                         colortexto="var(--blanco)"
-                        bgcolor="var(--azulP)"
+                        bgcolor="var(--verdeP)"
                     >Log In</BotonSlide>
                 </nav>
             </div>
@@ -28,7 +29,7 @@ const HeroHome = () => {
 
             <div className='hero-home__texto-contenedor'>
                 <h2>¡Encuentra a tu Profe!</h2>
-                <input type="text" placeholder='Buscador' />
+                <CampoBusquedaXL />
             </div>
 
 

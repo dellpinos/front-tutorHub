@@ -1,7 +1,7 @@
-
+import '../styles/Index.css';
 const Index = () => {
   return (
-    <div>Index</div>
+    <main className="index__contenedor-principal">Index</main>
   )
 }
 

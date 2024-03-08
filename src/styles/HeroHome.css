@@ -6,10 +6,6 @@
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 13%, rgba(119,221,119,1) 100%);
 
-
-
-    border: 1px solid red;
-
 }
 
 .hero-home__contenedor-header {
@@ -40,13 +36,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 200px 150px;
+    padding: 150px 150px;
     font-family: var(--fuente-headings);
+    gap: 60px;
 
     h2 {
         font-size: 80px;
     }
 
 
-    border: 1px solid blue;
 }
