@@ -1,4 +1,4 @@
-import './../styles/Header.css';
+import './../assets/styles/Header.css';
 import BotonSlide from './BotonSlide';
 import CampoBusqueda from './CampoBusqueda';
 import { Link } from 'react-router-dom';

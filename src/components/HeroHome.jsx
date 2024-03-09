@@ -1,4 +1,4 @@
-import './../styles/HeroHome.css';
+import './../assets/styles/HeroHome.css';
 import { Link } from 'react-router-dom';
 import BotonSlide from './BotonSlide';
 import CampoBusquedaXL from './CampoBusquedaXL';
@@ -8,7 +8,7 @@ const HeroHome = () => {
         <div className='hero-home__contenedor'>
             <div className='hero-home__contenedor-header'>
                 <Link to='/'>
-                    <h1 className="hero-home__logo">TutorHub</h1>
+                    <h1 className="hero-home__logo">Tutor<span>Hub</span></h1>
                 </Link>
 
                 <nav className='hero-home__nav'>
@@ -21,7 +21,7 @@ const HeroHome = () => {
                     <BotonSlide
                         ruta='/login'
                         colortexto="var(--blanco)"
-                        bgcolor="var(--verdeP)"
+                        bgcolor="var(--naranjaP )"
                     >Log In</BotonSlide>
                 </nav>
             </div>

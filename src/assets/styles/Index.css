@@ -1,0 +1,59 @@
+
+.index__contenedor-principal {
+    height: 1500px;
+}
+
+
+.index__contenedor-iconos {
+    display: flex;
+    padding: 30px 150px;
+    background-color: var(--verdeP-claro);
+    justify-content: space-around;
+
+}
+
+.index__icono-contenedor {
+
+    background-color: var(--blanco);
+    padding: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    
+    cursor: pointer;
+    transition: all .3s ease;
+    width: fit-content;
+
+    margin: 10px;
+}
+
+.index__icono-contenedor:hover {
+    
+    box-shadow: 0 0 10px var(--naranjaP);
+    
+    svg, .index__icono-path {
+        fill: var(--naranjaP);
+    }
+}
+
+.index__icono {
+    width: 40px;
+    height: 40px;
+    transition: all .3s ease;
+
+    
+    fill: var(--gris-medio);
+    background-color: var(--blanco);
+
+}
+
+
+.index__icono-texto {
+    text-align: center;
+}
+
+.index__icono--naranja {
+    /* fill: var(--naranjaP); */
+    
+
+}

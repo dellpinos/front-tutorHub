@@ -1,4 +1,4 @@
-import './../styles/CampoBusquedaXL.css';
+import './../assets/styles/CampoBusquedaXL.css';
 import styled from '@emotion/styled';
 import lupaImg from './../assets/img/lupa-buscador.svg';
 

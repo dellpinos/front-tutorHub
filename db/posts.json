@@ -1,0 +1,44 @@
+{
+    "posts": [
+        {
+            "nombre": "Maria",
+            "apellido": "Gonzales",
+            "categoria": "Idiomas",
+            "subcategoria": "Ingles",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "foto": "profe01",
+            "precio": 4555,
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+        },
+        {
+            "nombre": "Nestor",
+            "apellido": "Perez",
+            "categoria": "Idiomas",
+            "subcategoria": "Ingles",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "foto": "profe02",
+            "precio": 2333,
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+        },
+        {
+            "nombre": "Ignacio",
+            "apellido": "Gil",
+            "categoria": "Idiomas",
+            "subcategoria": "Español",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "foto": "profe03",
+            "precio": 5000,
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+        },
+        {
+            "nombre": "Sol",
+            "apellido": "Estebez",
+            "categoria": "Idiomas",
+            "subcategoria": "Ingles",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "foto": "profe04",
+            "precio": 3400,
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+        }
+    ]
+}

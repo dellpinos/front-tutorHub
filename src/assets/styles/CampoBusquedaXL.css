@@ -1,0 +1,27 @@
+
+.busquedaXL__contenedor {
+
+    height: fit-content;
+    display: flex;
+    /* border: 1px solid var(--gris-medio); */
+    border: 1px solid var(--naranjaP);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--blanco);
+    box-shadow: 0 0 10px var(--naranjaP),
+
+    0 0 20px 5px var(--blanco);
+}
+
+.busquedaXL__img {
+
+    width: 40px;
+
+}
+
+.busquedaXL__campo {
+
+    border: none;
+    font-size: 20px;
+}
+

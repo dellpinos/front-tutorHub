@@ -1,0 +1,23 @@
+
+.busqueda__contenedor {
+
+    height: fit-content;
+    display: flex;
+    border: 1px solid var(--gris-medio);
+    border-radius: 10px;
+    padding: 10px;
+
+
+}
+
+.busqueda__img {
+
+    width: 20px;
+}
+
+.busqueda__campo {
+    border: none;
+
+}
+
+
