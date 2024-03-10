@@ -1,11 +1,23 @@
 import '../assets/styles/Index.css';
 import Post from '../components/Post';
+import { obtenerPosts } from '../api/posts';
+import { useLoaderData } from 'react-router-dom';
 
+export function loader() {
+
+    const posts = obtenerPosts();
+
+    return posts;
+}
 
 
 
 
 const Index = () => {
+
+    const posts = useLoaderData();
+
+    console.log(posts);
     return (
         <div className="index__contenedor-principal">
 
@@ -73,10 +85,17 @@ const Index = () => {
                 <div className='index__posts-grid'>
                     {/* itero cada post */}
 
-                    <Post />
-                    <Post />
-                    <Post />
-                    <Post />
+                    {posts.map(post => (
+
+                        <Post
+                            post={post}
+                            key={post.id} 
+                        />
+
+                    )
+                    )}
+
+
 
                 </div>
             </section>

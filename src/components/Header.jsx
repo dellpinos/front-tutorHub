@@ -21,7 +21,6 @@ const Header = () => {
 
     const handleScroll = () => {
         if(window.scrollY > 600) {
-            console.log("hola")
             setVisible(true);
         } else {
             setVisible(false);
@@ -32,7 +31,7 @@ const Header = () => {
         <header className={`header__contenedor ${visible ? 'header__contenedor-mostrar' : 'header__contenedor-ocultar'}`}>
             <div className='header__contenedor-logo'>
                 <Link to='/'>
-                    <h1 className="header__logo">TutorHub</h1>
+                    <h1 className="header__logo"><span>Mi</span>Tutor</h1>
                 </Link>
 
                 <CampoBusqueda />

@@ -1,0 +1,67 @@
+
+.post__contenedor {
+
+    margin-bottom: 60px;
+    position: relative;
+
+    p {
+        font-family: var(--fuente-headings);
+    }
+}
+
+.post__img {
+
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.post__btn-fav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    transform: translate(-20px, 20px);
+    cursor: pointer;
+
+}
+.post__btn-fav:hover {
+
+    path {
+
+        stroke: var(--rojoP);
+        fill: var(--rojo);
+    }
+}
+.post__contenedor-texto-img {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(20px, -100px);
+
+    p {
+
+        color: var(--blanco);
+        font-weight: 700;
+        font-family: var(--fuente-secundaria)!important;
+        text-shadow: 0 0 2px var(--negro);
+    }
+}
+
+.post__contenedor-descripcion {
+
+}
+
+.post__puntaje {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+
+
+    svg, path {
+        width: 20px;
+        fill: var(--amarillo);
+    }
+}

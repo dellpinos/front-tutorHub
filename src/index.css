@@ -1,6 +1,6 @@
 :root {
     --fuente-secundaria: "Shantell Sans", cursive;
-    --fuente-headings: "Signika", sans-serif;
+    --fuente-headings: "Roboto", sans-serif;
     --fuente-code: "Kode Mono", monospace;
 
     /* Colores Pastel*/
@@ -12,11 +12,14 @@
     --rojoP-claro: #ffbeae;
     --azulP: #6ecff6;
     --azulP-claro: #b4e7ff;
-
     --naranjaP: #ff7f50;
     --naranjaP-claro: #ffdab9;
     --violetaP: #8a2be2;
     --violetaP-claro: #d8bfd8;
+
+    /* Otros */
+    --amarillo: #feb500;
+    --rojo: #ff3d00;
 
     /* Colores Oscuros*/
     --grisDM-claro: #2d2e30;
@@ -66,10 +69,20 @@ body {
 
 h1 {
     font-size: 4rem;
+    font-family: var(--fuente-headings);
 }
 
 h2 {
     font-size: 3rem;
+    font-family: var(--fuente-headings);
+}
+
+h3 {
+    font-family: var(--fuente-headings);
+}
+
+h4 {
+    font-family: var(--fuente-headings);
 }
 
 a {

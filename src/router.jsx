@@ -4,7 +4,7 @@ import Index from "./views/Index";
 import DarClases from "./views/DarClases";
 import Login from "./views/Login";
 import AlumnoRegister from "./views/AlumnoRegister";
-
+import { loader as postsLoader } from "./views/Index";
 
 const router = createBrowserRouter([
 
@@ -14,7 +14,8 @@ const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <Index />
+                element: <Index />,
+                loader: postsLoader
             },
             {
                 path: '/dar-clases',

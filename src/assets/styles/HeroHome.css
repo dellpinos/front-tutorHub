@@ -19,7 +19,7 @@
 
 .hero-home__logo {
     color: var(--verdeP);
-    font-family: var(--fuente-code);
+    font-family: var(--fuente-secundaria);
     font-size: 50px;
 
     span {
