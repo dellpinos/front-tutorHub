@@ -1,13 +1,17 @@
 import '../assets/styles/Index.css';
 import Post from '../components/Post';
+import OpCard from '../components/OpCard';
 import { obtenerPosts } from '../api/posts';
+import { obtenerReviewsIndex } from '../api/reviews';
 import { useLoaderData } from 'react-router-dom';
+
 
 export function loader() {
 
     const posts = obtenerPosts();
+    const reviews = obtenerReviewsIndex();
 
-    return posts;
+    return [posts, reviews];
 }
 
 
@@ -15,9 +19,10 @@ export function loader() {
 
 const Index = () => {
 
-    const posts = useLoaderData();
+    const [posts, reviews] = useLoaderData();
 
     console.log(posts);
+    return
     return (
         <div className="index__contenedor-principal">
 
@@ -83,21 +88,28 @@ const Index = () => {
                 <h2>Profesores Recientes</h2>
 
                 <div className='index__posts-grid'>
-                    {/* itero cada post */}
 
                     {posts.map(post => (
-
                         <Post
                             post={post}
-                            key={post.id} 
+                            key={post.id}
                         />
-
-                    )
-                    )}
-
-
-
+                    ))}
                 </div>
+            </section>
+
+            <section className='index__opCards-contenedor'>
+
+            {reviews.map(rev => (
+                        <OpCard
+                            review={rev}
+                            key={rev.id}
+                        />
+                    ))}
+
+
+
+
             </section>
 
 

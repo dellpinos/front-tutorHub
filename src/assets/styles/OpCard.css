@@ -1,0 +1,41 @@
+
+
+.opCard__contenedor {
+    padding: 20px;
+    background-color: var(--verdeP-claro);
+    border-radius: 30px;
+    font-family: var(--fuente-headings);
+}
+
+.opCard__nombre-contenedor {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.opCard__img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.opCard__nombre {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.opCard__categoria {
+    font-size: 30px;
+}
+
+.opCard__review {
+    font-size: 30px;
+}
+
+.opCard__puntaje {
+    background-color: var(--blanco);
+    width: fit-content;
+    padding: 10px 30px;
+    border-radius: 20px;
+}

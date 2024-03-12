@@ -31,7 +31,7 @@ const Header = () => {
         <header className={`header__contenedor ${visible ? 'header__contenedor-mostrar' : 'header__contenedor-ocultar'}`}>
             <div className='header__contenedor-logo'>
                 <Link to='/'>
-                    <h1 className="header__logo"><span>Mi</span>Tutor</h1>
+                    <h1 className="header__logo"><span>Tutor</span>Hub</h1>
                 </Link>
 
                 <CampoBusqueda />

@@ -8,11 +8,11 @@
             "cant_opiniones": 2,
             "categoria": "Idiomas",
             "subcategoria": "Ingles",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe01",
             "precio": 4555,
             "modalidad": "online & presencial",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         },
         {
             "id": 2,
@@ -22,11 +22,11 @@
             "cant_opiniones": 10,
             "categoria": "Idiomas",
             "subcategoria": "Ingles",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe02",
             "precio": 2333,
             "modalidad": "online",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         },
         {
             "id": 3,
@@ -36,11 +36,11 @@
             "cant_opiniones": 12,
             "categoria": "Idiomas",
             "subcategoria": "Español",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe03",
             "precio": 5000,
             "modalidad": "presencial",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         },
         {
             "id": 4,
@@ -50,11 +50,11 @@
             "cant_opiniones": 4,
             "categoria": "Idiomas",
             "subcategoria": "Ingles",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe04",
             "precio": 3400,
             "modalidad": "online & presencial",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         },
         {
             "id": 5,
@@ -64,11 +64,11 @@
             "cant_opiniones": 8,
             "categoria": "Canto",
             "subcategoria": "Vocal",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe05",
             "precio": 3900,
             "modalidad": "online & presencial",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         },
         {
             "id": 6,
@@ -78,11 +78,11 @@
             "cant_opiniones": 10,
             "categoria": "Idiomas",
             "subcategoria": "Portugues",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe06",
             "precio": 400,
             "modalidad": "online",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         },
         {
             "id": 7,
@@ -92,11 +92,11 @@
             "cant_opiniones": 1,
             "categoria": "Idiomas",
             "subcategoria": "Chino",
-            "descripcion": "Soy un profesor muy amable y doy clases de inglés",
+            "descripcion": "Soy un profesor muy amable y doy clases de inglés. Esta es una descripcion mucho mas larga y seguramente muy útil para el alumno.",
             "foto": "profe07",
             "precio": 9900,
             "modalidad": "online & presencial",
-            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria"
+            "comentarioNoEsParteDelJSON": "Post provisorio, el profesor debe ser una FK igual que la categoria y subcategoria."
         }
     ]
 }
