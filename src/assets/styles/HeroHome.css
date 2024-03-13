@@ -47,6 +47,7 @@
     h2 {
         font-size: 80px;
         color: var(--naranjaP);
+        font-family: var(--fuente-secundaria);
     }
 
 

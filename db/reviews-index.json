@@ -2,8 +2,9 @@
     "reviews-index": [
         {
             "id": 1,
-            "puntaje": 3.5,
+            "puntaje": 3,
             "alumno_nombre": "Pepe Jonás",
+            "alumno_foto": "profe01",
             "profe_nombre": "Gustavo Garcia",
             "categoria": "Canto",
             "texto": "Pepe es un excelente profesor que disfruta mucho lo que hace y da clases largas y muy entretenidas."
@@ -12,6 +13,7 @@
             "id": 2,
             "puntaje": 5,
             "alumno_nombre": "Pedro Mer",
+            "alumno_foto": "profe03",
             "profe_nombre": "Anto Garcia",
             "categoria": "Piano",
             "texto": "Pedro es un excelente profesor que disfruta mucho lo que hace y da clases largas y muy entretenidas."
@@ -20,6 +22,7 @@
             "id": 3,
             "puntaje": 5,
             "alumno_nombre": "Rocio Hermida",
+            "alumno_foto": "profe04",
             "profe_nombre": "Hector Zruty",
             "categoria": "Guitarra",
             "texto": "PepeHector es un excelente profesor que disfruta mucho lo que hace y da clases largas y muy entretenidas."

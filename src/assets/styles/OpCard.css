@@ -4,7 +4,11 @@
     padding: 20px;
     background-color: var(--verdeP-claro);
     border-radius: 30px;
-    font-family: var(--fuente-headings);
+    font-family: var(--fuente-secundaria);
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .opCard__nombre-contenedor {
@@ -20,22 +24,44 @@
     border-radius: 50%;
 }
 .opCard__nombre {
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 700;
 
 }
 
 .opCard__categoria {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .opCard__review {
-    font-size: 30px;
+    font-size: 32px;
+    margin-top: 30px;
+    line-height: 1.7;
 }
 
-.opCard__puntaje {
+.opCard__puntaje {  
     background-color: var(--blanco);
+    font-family: var(--fuente-headings);
     width: fit-content;
-    padding: 10px 30px;
+    padding: 10px 15px;
     border-radius: 20px;
+
+    display: flex;
+    gap: 10px;
+
+
+}
+
+.opCard__puntaje-star {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+
+
+
+    svg, path {
+        width: 20px;
+        fill: var(--amarillo);
+    }
 }

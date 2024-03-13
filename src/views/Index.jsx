@@ -6,10 +6,10 @@ import { obtenerReviewsIndex } from '../api/reviews';
 import { useLoaderData } from 'react-router-dom';
 
 
-export function loader() {
+export async function loader() {
 
-    const posts = obtenerPosts();
-    const reviews = obtenerReviewsIndex();
+    const posts = await obtenerPosts();
+    const reviews = await obtenerReviewsIndex();
 
     return [posts, reviews];
 }
@@ -21,8 +21,7 @@ const Index = () => {
 
     const [posts, reviews] = useLoaderData();
 
-    console.log(posts);
-    return
+
     return (
         <div className="index__contenedor-principal">
 
@@ -105,10 +104,8 @@ const Index = () => {
                             review={rev}
                             key={rev.id}
                         />
+
                     ))}
-
-
-
 
             </section>
 

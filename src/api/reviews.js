@@ -6,6 +6,7 @@ export async function obtenerReviewsIndex() {
     const resultado = await fetch(url);
     const respuesta = await resultado.json();
 
+
     return respuesta;
 
 }
