@@ -7,7 +7,10 @@ const Post = (post) => {
 
     return (
         <div className='post__contenedor'>
+            <div className='post__img-contenedor'>
+
             <img src={`/storage/${foto}.jpg`} alt={`Fotografia ${nombre} ${apellido}`} className='post__img' />
+            </div>
             <div className='post__contenedor-texto-img'>
                 <p>{nombre} {apellido}</p>
                 <p>( {modalidad} )</p>

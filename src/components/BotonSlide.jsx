@@ -12,6 +12,7 @@ const Boton = styled(Link)`
         background-size: 300%;
         background-position: 100%;
         transition: 1s;
+        width: fit-content;
 
         ::after {
         content: "";

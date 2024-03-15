@@ -6,17 +6,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
     p {
         font-family: var(--fuente-headings);
     }
 }
 
+.post__img-contenedor {
+
+    height: 420px;
+    width: 430px;
+    overflow: hidden;
+}
+
 .post__img {
 
-    width: 420px;
-    height: 400px;
-    object-fit: cover;  
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.5s ease;
+}
+.post__img:hover {
+    transform: scale(1.1);
+
 }
 
 .post__btn-fav {
@@ -54,10 +68,7 @@
 
 .post__contenedor-descripcion {
 
-
-
-
-
+    margin-top: 10px;
 
 }
 

@@ -1,55 +1,6 @@
 
 .index__contenedor-principal {
-    height: 1500px;
-}
-
-
-.index__contenedor-iconos {
-    display: flex;
-    padding: 30px 150px;
-    background-color: var(--verdeP-claro);
-    justify-content: space-around;
-
-}
-
-.index__icono-contenedor {
-
-    background-color: var(--blanco);
-    padding: 15px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
     
-    cursor: pointer;
-    transition: all .3s ease;
-    width: fit-content;
-
-    margin: 10px;
-}
-
-.index__icono-contenedor:hover {
-    
-    box-shadow: 0 0 10px var(--naranjaP);
-    
-    svg, .index__icono-path {
-        fill: var(--naranjaP);
-    }
-}
-
-.index__icono {
-    width: 40px;
-    height: 40px;
-    transition: all .3s ease;
-
-    
-    fill: var(--gris-medio);
-    background-color: var(--blanco);
-
-}
-
-
-.index__icono-texto {
-    text-align: center;
 }
 
 .index__posts-contenedor {
@@ -72,8 +23,8 @@
 .index__posts-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 20px;
+    gap: 10px;
+    margin: 20px;
 }
 
 .index__opCards-contenedor {
@@ -82,3 +33,46 @@
     gap: 30px;
 }
 
+.index__nuevo-profe-contenedor {
+    padding: 100px 200px;
+    
+    
+}
+
+.index__nuevo-profe-img {
+    border-radius: 20px;
+    background-image: url('./../../../storage/nuevo-profe01.jpg');
+    background-position: center center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px;
+
+}
+
+.index__nuevo-profe-texto {
+
+    background-color: var(--naranjaP-claro);
+    padding: 40px;
+    border-radius: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+.index__nuevo-profe-btn {
+    display: flex;
+    justify-content: flex-end;
+}

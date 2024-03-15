@@ -67,6 +67,7 @@ body {
 }
 
 
+
 h1 {
     font-size: 4rem;
     font-family: var(--fuente-headings);
@@ -140,4 +141,8 @@ li {
 
 .f-bold {
     font-weight: 700;
+}
+
+main {
+    min-height: min-content;
 }
